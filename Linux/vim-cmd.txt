@@ -1,0 +1,50 @@
+help resources:
+https://vim.fandom.com/wiki/Best_Vim_Tips
+
+1 Command mode
+    - basic file commands
+	:help [keyword] # search for help
+	:e [file]       # open file	
+	:w              # save file
+	:w [filename]   # save file with given name
+	:wq             # save file and quit vim
+	:q!             # quit without saving
+
+    - basic setting commands
+	:set number           # toggle on number of lines
+	:set nonumber         # toggle off number of lines
+	:set relativenumber   # toggle on relative number of lines
+	:set norelativenumber # toggle off relative number of lines
+
+    - movement 
+	k/j/h/l  # move char            at a time (up/down/left/right)
+	w/b/e/ge # move word            at a time (start of next/previous word, end of a next/previous word)
+	( / )    # move sentence        at a time (start of previous/next sentence
+	{ / }    # move paragraph/block at a time (start of previous/next paragraph or block)
+	f[char]  # move to                        (next given char in line
+	F[char]  # move to                        (previous given char in line
+	0/$      # move to                        (beginning/end of a line
+	H/L/M    # move to                        (top/bottom/middle of screen
+	gg/G     # move to                        (satrt/end of the file
+	[n][action/movement]   # do n times eg. 4j 
+
+    - editing
+	a        # append
+	o        # add a new line, and enter insert mode
+	S        # clear current line, and enter insert mode
+	r[char]  # replace character below cursor
+	v/V      # highlight a character/line (move cursor to select text after "v")
+	yy/dd    # copies/delete a line
+	yw/dw    # copies/delete a word
+	y$/D     # copies/delete from cursor to end of the line
+	d0       # delete from cursor to beginning of line
+	dgg/dG   # delete from cursor to beginning/end of file
+	d        # delete hightlighted text
+	x        # delete single character
+	p        # paste copied text
+	u        # undo last operation
+	^r       # redo last undo
+	.        # repeat last action
+
+2 Insert mode
+    - enter insert mode: i

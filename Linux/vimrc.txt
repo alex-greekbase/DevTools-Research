@@ -1,0 +1,17 @@
+set number
+
+set laststatus=2
+set statusline+=
+set statusline+=\%F
+set statusline+=%=
+
+set statusline+=\ %y
+set statusline+=\ %{&fileencoding?&fileenconding:&encoding}
+set statusline+=\ [%{&fileformat}]
+set statusline+=\ %p%%
+set statusline+=\ %l:%c
+set statusline+=\  
+
+set tabstop=4
+set shiftwidth=4
+set expandtab
