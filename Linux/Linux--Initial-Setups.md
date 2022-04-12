@@ -112,7 +112,8 @@
 
     *Install*:
     1. [download](https://github.com/romkatv/powerlevel10k) and install Meslo NF font 
-    2. `$ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k`
+    2. change font to MesloLGS NF Regular in terminal preferences
+    3. `$ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k`
 	
     *Configure*:
     1. in ~/.zshrc add: 
