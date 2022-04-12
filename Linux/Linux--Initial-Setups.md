@@ -21,6 +21,9 @@
 - etc.
 
 # Install Gnome extensions
+- Gnome-shell-extensions: 
+    `$ sudo apt update`
+    `$ sudo apt install gnome-shell-extensions`
 - [Lock Keys](https://extensions.gnome.org/extension/36/lock-keys/), use browser to toggle on the tool
 
 # Install package managers
