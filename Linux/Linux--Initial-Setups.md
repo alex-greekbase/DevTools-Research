@@ -36,21 +36,21 @@
     cURL, client URC, used to transfer data to and from a server
 
     *Install*:
-    `$ sudo apt-get install curl`
+        `$ sudo apt-get install curl`
 
 2. git
     version control and source code management
 
     *Install*:
-    `$ sudo apt-get install git`
+        `$ sudo apt-get install git`
     
     *[Configure](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)*:
-    `$ git config --global user.name "Your name"`
-    `$ git config --global user.email youremail@example.com`
-    `$ git config --global init.defaultBranch main`
+        `$ git config --global user.name "Your name"`
+        `$ git config --global user.email youremail@example.com`
+        `$ git config --global init.defaultBranch main`
 
     *Check configuration*:
-    `$ git config --list`
+        `$ git config --list`
     
     *[Connect to GitHub with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)*:
     1. check existing SSH keys if any: `$ ls -al ~/.ssh`
@@ -65,7 +65,7 @@
     a powerful editor
 
     *Install*:
-    `$ sudo apt-get install vim`
+        `$ sudo apt-get install vim`
 
     *Configure*:
     in ~/.vimrc add:
@@ -93,11 +93,11 @@
     a more powful bash 
 
     *Install*:
-    `$ sudo apt-get update`
-    `$ sudo apt-get install zsh`
+        `$ sudo apt-get update`
+        `$ sudo apt-get install zsh`
 
     *Check zsh version*:
-    `$ zsh --version`
+        `$ zsh --version`
 
     zsh configuration will be done by ohmyzsh
     
@@ -105,7 +105,7 @@
     a community framework to manage zsh configuration
 
     *Install*:
-    `$ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+        `$ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
     
 6. powerlevel10k
     a pretty zsh theme
@@ -120,7 +120,7 @@
     ZSH_THEME="powerlevel10k/powerlevel10k"
     ```
     2. configure powerlevel10k with its wizard:	
-    `$ zsh` or `$ p10k configure`
+        `$ zsh` or `$ p10k configure`
 
     *An Configuration Example*:
     |Setting|Choice|
@@ -153,7 +153,7 @@
     a zsh plug-in 
 
     *Install*:
-    `$ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
+        `$ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
 
     *Configure*:
     in ~/.zshrc add: 
@@ -165,7 +165,7 @@
     a zsh plug-in 
     
     *Install*:
-    `$ git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions`
+        `$ git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions`
 
     *Configure*:
     in ~/.zshrc add:
