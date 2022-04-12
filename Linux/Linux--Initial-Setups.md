@@ -20,6 +20,8 @@
 - GParted
 - etc.
 
+# Install Gnome extensions
+- [Lock Keys](https://extensions.gnome.org/extension/36/lock-keys/), use browser to toggle on the tool
 
 # Install package managers
 - npm: `$ sudo apt install npm`
