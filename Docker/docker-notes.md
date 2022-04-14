@@ -8,7 +8,7 @@ Four components of Docker:
 ![Components of Docker](./Assets/Components-of-Docker.png)
 
 Structure of Docker Engine:
-![Structure of Docker](./Assets/Workflow-of-Docker.png)
+![Structure of Docker](./Assets/Structure-of-Docker.png)
 
 Workflow of Docker:
 ![Workflow of Docker](./Assets/Workflow-of-Docker.png)
