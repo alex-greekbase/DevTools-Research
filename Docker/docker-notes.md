@@ -1,4 +1,4 @@
-# [What is Docker and how does it work? - YouTube](https://youtu.be/rOTqprHv1YE?t=248)
+# A glimpse of Docker: [What is Docker and how does it work? - YouTube](https://youtu.be/rOTqprHv1YE?t=248)
 Four components of Docker:
   - Docker Client and Server: client side control from terminal, run commands to interact with server (Docker Daemon and Registry)
   - Docker Images: instructions to create Docker Containers, stored in a Dockerfile
@@ -16,32 +16,30 @@ Workflow of Docker:
 
 # Install Docker on Linux
 1. set up the Docker repository
-2. remove
+2. remove old version of Docker installed on machine
 3. download and install the Debian package
 
 
-# Temporary notes
-The clients and container runtime are in separate packages. Users should install and update all three packages at the same time. On Ubuntu: `$ sudo apt install docker-ce docker-ce-cli containerd.io`
+# Terminologies
+[Docker Engine](https://docs.docker.com/engine/)
+- Docker Engine is loosely the regular Docker for Linux. Docker Engine is an open source containerization technolog for building and containerizing applications. Docker Engine acts as a client-server application with:
+  - a server with a long-running daemon process [dockerd](https://docs.docker.com/engine/reference/commandline/dockerd/)
+  - APIs which specify interfaces that programs can use to talk and talk to and instruct the Docker daemon
+  - a command line interface (CLI) client [docker](https://docs.docker.com/engine/reference/commandline/cli/)
 
-[Docker Desktop vs Docker Engine?](https://www.docker.com/products/docker-desktop/alternatives/)
-- Docker Desktop is for Windows and MacOS
-- Docker Engine is the regular Docker for Linux
+[Docker Desktop](https://docs.docker.com/desktop/)
+- Docker Desktop is loosely the Windows and MacOS version of Docker Engine. Docker Desktop includes Docker Engine, Docker CLI client, Docker Compose, Docker Content Trust, Kubernetes, and Credential Helper [].
 
 [Containerd IO vs Docker CE vs Docker CE CLI - StackOverflow](https://stackoverflow.com/questions/58741267/containerd-io-vs-docker-ce-cli-vs-docker-ce-what-are-the-differences-and-what-d)
 - Docker CE (docker-ce): Docker Engine Community Edition
 - Docker CE CLI (docker-ce-cli): Command Line Interface for Docker CE 
 - Daemon Containerd (containerd.io): 
 
-[How does Docker work on different OS]()
-[What is Docker Daemon?]()
-- Docker Daemon is a part of Docker Engine
-
-[Docker Engine components](https://stackoverflow.com/questions/60527336/what-is-the-difference-between-docker-daemon-and-docker-engine)
-- Docker Engine is the core of Docker, including its daemon (dockerd) and CLI (docker)
-
 
 # References
 - [Docker Overview](https://docs.docker.com/get-started/overview/)
 - [Docker Get Started](https://docs.docker.com/get-started/)
 - [Docker Engine release notes](https://docs.docker.com/engine/release-notes/)
+- [Install Docker Desktop on Mac](https://docs.docker.com/desktop/mac/install/)
+- [Install Docker Desktop on Window](https://docs.docker.com/desktop/windows/install/)
 - [Docker Desktop vs DIY with Docker Engine](https://www.docker.com/products/docker-desktop/alternatives/)
