@@ -14,10 +14,42 @@ Workflow of Docker:
 ![Workflow of Docker](./Assets/Workflow-of-Docker.png)
 
 
-# Install Docker on Linux
-1. set up the Docker repository
-2. remove old version of Docker installed on machine
-3. download and install the Debian package
+# [Install Docker on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
+1. uninstall old versions
+    ```
+    $ sudo apt-get remove docker docker-engine docker.io containerd runc
+    ```
+2. set up the repository
+    - update the apt package index and install packages to allow apt to use a repository over HTTPS:
+        ```
+        $ sudo apt-get update
+
+        $ sudo apt-get install \
+            ca-certificates \
+            curl \
+            gnupg \
+            lsb-release
+        ```
+    - add Docker's official GPG key:
+        ```
+        $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+        ```
+    - set up the stable repository
+        ```
+        $ echo \
+          "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
+          $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+        ```
+3. install Docker Engine
+    - update apt package index and install the lateset version of Docker Engine and containerd
+        ```
+        $ sudo apt-get update
+        $ sudo apt-get install docker-ce docker-ce-cli containerd.io
+        ```
+    - verify that Docker Engine is installed correctly
+        ```
+        $ sudo docker run hello-world
+        ```
 
 
 # Terminologies
