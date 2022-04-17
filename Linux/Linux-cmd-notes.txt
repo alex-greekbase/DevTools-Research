@@ -9,6 +9,7 @@
 - $ dpkg -l	# list all installed packages
 - pwd                                           // show the current directory
 - sudo update-alternatives --config editor      // show text editors, with * in use
+- apt list --installed                          // show all installed packages
 
 3 Common unix editor commands:
 
