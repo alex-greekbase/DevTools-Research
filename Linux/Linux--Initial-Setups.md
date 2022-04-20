@@ -20,18 +20,24 @@
 - GParted
 - etc.
 
+
 # Install Gnome extensions
 - Gnome-shell-extensions: 
     `$ sudo apt update`
     `$ sudo apt install gnome-shell-extensions`     # Gnome Shell native host connector
 - [Lock Keys](https://extensions.gnome.org/extension/36/lock-keys/), use browser to toggle on the tool
 
+
 # Install package managers
-- npm: `$ sudo apt install npm`
+- npm (node package manager): `$ sudo apt install npm`
 - etc.
 
 
-# Install tools via terminal
+# Install useful tools via terminal
+- tree (show folder tree): `$ sudo apt-get install tree`
+
+
+# Install Zsh and Vim
 1. curl
     cURL, client URC, used to transfer data to and from a server
 
