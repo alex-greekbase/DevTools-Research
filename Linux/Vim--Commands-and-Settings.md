@@ -137,6 +137,10 @@ set expandtab
     Plugin 'leafgarland/typescript-vim'
     call vundle#end()            " required
     filetype plugin indent on    " required
+  
+  *open vim editor*:
+    `$ vim`
+    run :PluginInstall in vim editor
 
 # References and resources:
 1. [Best Vim Tips](https://vim.fandom.com/wiki/Best_Vim_Tips)
