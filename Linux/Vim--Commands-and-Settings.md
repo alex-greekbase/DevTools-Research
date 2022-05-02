@@ -117,11 +117,11 @@ set expandtab
 
 # Plugins
 ## [Vundle (Vim package manager)](https://github.com/VundleVim/Vundle.vim)
-<<<<<<< HEAD
   - *Install*:
       `$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 
   - *Add the following lines at the top of .vimrc*:
+      ```
       set nocompatible              " be iMproved, required
       filetype off                  " required
       set rtp+=~/.vim/bundle/Vundle.vim
@@ -138,32 +138,11 @@ set expandtab
       Plugin 'leafgarland/typescript-vim'
       call vundle#end()            " required
       filetype plugin indent on    " required
-=======
-  *Install*:
-    `$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
-
-  *Add the following lines at the top of .vimrc*:
-    set nocompatible              " be iMproved, required
-    filetype off                  " required
-    set rtp+=~/.vim/bundle/Vundle.vim
-    call vundle#begin()
-    Plugin 'VundleVim/Vundle.vim'
-    Plugin 'tpope/vim-fugitive'
-    Plugin 'tpope/vim-surround'
-    Plugin 'scrooloose/nerdtree'
-    Plugin 'scrooloose/syntastic'
-    Plugin 'airblade/vim-gitgutter'
-    Plugin 'altercation/vim-colors-solarized'
-    Plugin 'valloric/youcompleteme'
-    Plugin 'nathanaelkane/vim-indent-guides'
-    Plugin 'leafgarland/typescript-vim'
-    call vundle#end()            " required
-    filetype plugin indent on    " required
+      ```
   
-  *open vim editor*:
+  - *open vim editor*:
     `$ vim`
     run :PluginInstall in vim editor
->>>>>>> 6a0c63ee36e64f8e6035a115055c792efc02f735
 
 # References and resources:
 1. [Best Vim Tips](https://vim.fandom.com/wiki/Best_Vim_Tips)
