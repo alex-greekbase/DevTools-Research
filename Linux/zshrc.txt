@@ -89,8 +89,10 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 export EM="$HOME/dev/casper/react/src"
-export EM_WIP="$HOME/dev/casper/react/src/modals/SignUp"
-export EM_ANY="$HOME/dev/casper/react/src/pages/LandingPage/AnyoneCanHost"
+export EM_COM="$HOME/dev/casper/react/src/primarycomponents"
+export EM_CT="$HOME/dev/casper/react/src/context"
+export EM_MD="$HOME/dev/casper/react/src/modals"
+export EM_PG="$HOME/dev/casper/react/src/pages"
 export RE="$HOME/dev/DevTools-Research"
 
 # export MANPATH="/usr/local/man:$MANPATH"

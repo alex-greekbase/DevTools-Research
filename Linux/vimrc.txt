@@ -11,6 +11,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'vim-airline/vim-airline'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'valloric/youcompleteme'
 Plugin 'nathanaelkane/vim-indent-guides'
@@ -29,19 +30,20 @@ filetype plugin indent on    " required
 syntax on 
 
 set number
+set relativenumber
 
-set laststatus=2
-set statusline+=
+" set laststatus=2
+" set statusline+=
 " set statusline+=\%F
-set statusline+=\%f
-set statusline+=%=
+" set statusline+=\%f
+" set statusline+=%=
 
-set statusline+=\ %y
-set statusline+=\ %{&fileencoding?&fileenconding:&encoding}
+" set statusline+=\ %y
+" set statusline+=\ %{&fileencoding?&fileenconding:&encoding}
 " set statusline+=\ [%{&fileformat}]
-set statusline+=\ %p%%
-set statusline+=\ %l:%c
-set statusline+=\  
+" set statusline+=\ %p%%
+" set statusline+=\ %l:%c
+" set statusline+=\  
 
 set tabstop=2
 set shiftwidth=2
