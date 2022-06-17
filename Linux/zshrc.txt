@@ -89,7 +89,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 export EM="$HOME/dev/casper/react/src"
-export EM_COM="$HOME/dev/casper/react/src/primarycomponents"
+export EM_CP="$HOME/dev/casper/react/src/primarycomponents"
 export EM_CT="$HOME/dev/casper/react/src/context"
 export EM_MD="$HOME/dev/casper/react/src/modals"
 export EM_PG="$HOME/dev/casper/react/src/pages"
