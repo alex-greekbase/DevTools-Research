@@ -149,7 +149,7 @@ set expandtab
   - *Uninstall*:
     remove plugin from config file .vimrc
     quit and restart Vim
-    run :PlugClean 
+    run :PluginClean 
 
 # References and resources:
 1. [Best Vim Tips](https://vim.fandom.com/wiki/Best_Vim_Tips)
