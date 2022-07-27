@@ -18,6 +18,9 @@ Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'mxw/vim-jsx'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'jelera/vim-javascript-syntax'
+" ALE: syntax checking and semantic errors
+Plugin 'w0rp/ale'
+Plugin 'prettier/vim-prettier'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
