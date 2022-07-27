@@ -95,6 +95,8 @@
 
 ## Example setting for .vimrc:
 
+comment with one double quote (") at the beginning of specific line
+
 ```
 set number
 
@@ -133,7 +135,7 @@ set expandtab
       Plugin 'scrooloose/syntastic'
       Plugin 'airblade/vim-gitgutter'
       Plugin 'altercation/vim-colors-solarized'
-      Plugin 'valloric/youcompleteme'
+      " Plugin 'valloric/youcompleteme'
       Plugin 'nathanaelkane/vim-indent-guides'
       Plugin 'leafgarland/typescript-vim'
       call vundle#end()            " required
@@ -143,6 +145,11 @@ set expandtab
   - *open vim editor*:
     `$ vim`
     run :PluginInstall in vim editor
+
+  - *Uninstall*:
+    remove plugin from config file .vimrc
+    quit and restart Vim
+    run :PlugClean 
 
 # References and resources:
 1. [Best Vim Tips](https://vim.fandom.com/wiki/Best_Vim_Tips)
