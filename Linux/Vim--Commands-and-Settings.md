@@ -146,6 +146,9 @@ set expandtab
     `$ vim`
     run :PluginInstall in vim editor
 
+  - *Check plugin list*:
+    run :PluginList
+
   - *Uninstall*:
     remove plugin from config file .vimrc
     quit and restart Vim
